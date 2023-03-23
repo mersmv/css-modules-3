@@ -1,5 +1,6 @@
-const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
-};
+import Header from "./components/Header/Header";
 
+const App = () => {
+	return <Header/>
+}
 export default App;
